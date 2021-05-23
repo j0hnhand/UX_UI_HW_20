@@ -13,11 +13,66 @@
 .jumbotron {
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 25px);
+
 }
 .jumboContainer {
-    margin-top: 50px;
+    margin: 50px 0px 50px 0px;
     width: 70%;
     min-width: 500px;
     max-width: 700px;
+}
+.jumboTopRight img{
+    max-height: auto;
+    max-width: 100%;
+    margin: 50px 0px 0px 0px;
+}
+.jumboBottom h1{
+    margin: 50px 0px 0px 0px;
+}
+
+/* Research Section */
+.research {
+    background-image: url(..//images/Frame\ 34.png)
+}
+.researchContainer {
+    padding: 80px;
+}
+.research h1 {
+    margin: 0px 0px 50px 0px;
+}
+
+/* Problem Statement Section */
+.problemContainer {
+    padding: 80px;
+    min-height: 600px;
+    background-color: #0d0d0d;
+    color: white;
+}
+.problemContainer h1 {
+    margin: 0px 0px 50px 0px; 
+}
+
+/* Iteration Section */
+.iteration {
+    background-image: url(../images/Frame\ 10.png)
+}
+.iterationContainer {
+    padding: 80px;
+}
+.iteration h1 {
+    margin: 0px 0px 50px 0px;
+}
+
+/* Prototype Section */
+.protoContainer {
+    padding: 80px;
+    min-height: 600px;
+}
+.protoContainer h1 {
+    margin: 0px 0px 50px 0px;
+}
+.protoContainer img {
+    max-height: auto;
+    max-width: 100%;
+    margin: 50px 0px 0px 0px;
 }
